@@ -1,0 +1,126 @@
+.cards_1{
+    width: 350px;
+    height: 200px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px   rgb(121, 118, 118);
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+@media screen and (max-width:500px){
+    .cards_1{
+        width: 300px;
+       
+    }
+}
+@media screen and (max-width:1200px){
+    .cards_1{
+            
+        margin: auto;
+       margin-top: 70px;
+    }
+}
+.users_img{
+    position: relative;
+    bottom: 40px;
+
+    border-radius: 100px;
+    width: 100px;
+    border: 1px solid silver;
+    padding: 10px;
+  
+
+}
+span{
+    color: rgb(136, 133, 133);
+}
+.foot_name{
+   /* margin-left: 130px; */
+   position: relative;
+   top: 30px;
+   font-size: 15px;
+   text-align: center;
+}
+.new_card{
+    position: relative;
+  width: 100px;
+  display: flex;
+    
+     justify-content: space-around;
+}
+.main_card_sec{
+    position: relative;
+    top: 120px;
+}
+
+/* contact css */
+
+.disply_flex_contact{
+        display: flex;
+        justify-content: center;
+position: relative;
+top: 110px;
+    justify-content: space-around;
+  margin: auto;
+
+
+}
+
+.input{
+    padding: 10px 10px 10px 10px;
+    width: 45%;
+    margin-right: 20px;
+    border:1px solid rgb(196, 189, 189);
+}
+/* .inputs{
+    width: 500px;
+} */
+.input_2{
+    padding: 10px 10px 10px 10px;
+    width: 94%;
+    margin-right: 20px;
+    margin-top: 20px;
+    border:1px solid rgb(196, 189, 189);
+}
+textarea{
+    margin-top: 20px;
+    width: 94%;
+    border:1px solid rgb(196, 189, 189);
+}
+@media screen and (max-width:800px) {
+    .disply_flex_contact{
+       display: inline-block;
+   
+       margin-top: 60px;
+    }  
+  }
+  @media screen and (max-width:800px) {
+    .tiltle{
+        margin-left: 60px;
+    }  
+  }
+ 
+ @media screen and (max-width:800px) {
+    .inputs{
+       margin-left: 60px;
+    }  
+  }
+
+  @media screen and (max-width:800px) {
+    .input{
+        width: 94%;
+        margin-top: 20px;
+    }  
+  } 
+.btn_inCont{
+    float: right;
+    width: 170px;
+    position: relative;
+    top: 30px;
+}
+@media screen and (max-width:800px) {
+    .btn_inCont{
+       margin-right: 30px;
+    }  
+  } 
